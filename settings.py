@@ -13,7 +13,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from decouple import config
 from melodramatick.settings import *  # noqa: F401, F403
 from melodramatick.settings import INSTALLED_APPS as IMPORTED_APPS
-from melodramatick.settings import BASE_DIR, ALLOWED_HOSTS, TEMPLATES, STATICFILES_DIRS
+from melodramatick.settings import (
+    BASE_DIR, ALLOWED_HOSTS, TEMPLATES, STATICFILES_DIRS
+)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 # BASE_DIR = Path(__file__).resolve().parent.parent
